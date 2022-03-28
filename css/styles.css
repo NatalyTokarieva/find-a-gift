@@ -11,11 +11,36 @@ body{
     font-family: 'Montserra', sans-serif ;
     font-weight: 400;
     font-size: 18px;
-    text-decoration: none;
+}
+     button{
+        font:inherit;
+    }
    
 
-}
+
 
 .list{
     list-style: none;
+}
+
+.site-nav a{
+    line-height: 1.22;
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus{
+    color: var(--button-text--);
+}
+
+
+.white-button{
+    background-color:var(--white-text--);
+    color: var(--button-text--);
+    border-color: var(--button-text--);
+    font-family: 'Montserra', sans-serif ;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    cursor: pointer;
+
 }
