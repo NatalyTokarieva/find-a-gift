@@ -11,6 +11,7 @@ body{
     font-family: 'Montserra', sans-serif ;
     font-weight: 400;
     font-size: 18px;
+    color: var(--main-text--);
 }
      button{
         font:inherit;
@@ -43,4 +44,20 @@ body{
     line-height: 1.22;
     cursor: pointer;
 
+}
+.section-hero{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.23;
+}
+.hero p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.yellow-button{
+    background-color: var(--button-text--);
+    color: var(--white-text--);
+    border-radius: 5px;
+    border-color: var(--button-text--);
 }
