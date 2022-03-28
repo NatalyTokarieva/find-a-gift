@@ -1,0 +1,21 @@
+:root{
+    --main-text--:#000000; 
+    --button-text--:#F7941E; 
+    --white-text--: #FFFFFF;
+    --black-background--: #231F20;
+    --text-background--: #F1F1F2;
+    --footer-background--:#FAFAFA;
+
+}
+body{
+    font-family: 'Montserra', sans-serif ;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+   
+
+}
+
+.list{
+    list-style: none;
+}
