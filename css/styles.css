@@ -9,16 +9,16 @@
 }
 body{
     font-family: 'Montserra', sans-serif ;
+    font-style:normal;
     font-weight: 400;
     font-size: 18px;
     color: var(--main-text--);
+    background-color: var(--footer-background--);
+    
 }
-     button{
-        font:inherit;
-    }
-   
-
-
+button{
+    font: inherit;
+}
 
 .list{
     list-style: none;
@@ -27,6 +27,7 @@ body{
 .site-nav a{
     line-height: 1.22;
     text-decoration: none;
+    color: var(--main-text--);
 }
 .site-nav a:hover,
 .site-nav a:focus{
@@ -38,12 +39,11 @@ body{
     background-color:var(--white-text--);
     color: var(--button-text--);
     border-color: var(--button-text--);
-    font-family: 'Montserra', sans-serif ;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
-    cursor: pointer;
-
+     line-height: 1.22;
+    
+}
+.hero, .work{
+    background-color: var(--text-background--);
 }
 .section-hero{
     font-weight: 600;
@@ -58,6 +58,72 @@ body{
 .yellow-button{
     background-color: var(--button-text--);
     color: var(--white-text--);
-    border-radius: 5px;
     border-color: var(--button-text--);
+ 
+}
+.section-work,
+.contact p{
+    font-size: 32px;
+    line-height: 1.4;
+}
+.work-button{
+    background-color:var(--white-text--);
+    color: var(--button-text--);
+    border-color: var(--button-text--);
+    line-height: 1.35;
+
+}
+.present{
+background-color: var(--white-text--);
+}
+.section-present{
+    font-size: 32px;
+    line-height: 1.18;
+}
+.text-present{
+    line-height: 1.35;
+}
+.picture-present {
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--main-text--);
+    font-weight: 400;
+    text-decoration: none;
+}
+.section-see{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,35;
+}
+.contact{
+    background-color: var(--button-text--);
+}
+.section-contact{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.4;
+}
+.black-button, .orange-button, .yellow-button, .white-button,.work-button{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: 'Montserra', sans-serif ;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    cursor: pointer;
+
+}
+.black-button{
+    background: #231F20;
+    color: var(--white-text--);
+    border-color: var(--main-text--);
+
+}
+.orange-button{
+    background-color: #F7941E;
+    color: var(--main-text--);
+    border-color:var(--main-text--);
 }
