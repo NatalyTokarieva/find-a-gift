@@ -92,6 +92,8 @@ background-color: var(--white-text--);
     font-weight: 400;
     text-decoration: none;
 }
+
+h3.picture-present {}
 .section-see{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -172,4 +174,16 @@ h4.section-blog2 {}
 .blog2 a{
     font-size: 14px;
     text-decoration: none;
+    color: var(--main-text--);
+}
+.section-footer a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: var(--main-text--);
+}
+.footer p{
+    font-size: 14px;
+    line-height: 1.4;
 }
