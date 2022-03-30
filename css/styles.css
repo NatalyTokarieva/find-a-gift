@@ -76,9 +76,11 @@ button{
 .present{
 background-color: var(--white-text--);
 }
-.section-present{
+.section-present,
+.section-blog{
     font-size: 32px;
     line-height: 1.18;
+    font-weight: 400;
 }
 .text-present{
     line-height: 1.35;
@@ -126,4 +128,48 @@ background-color: var(--white-text--);
     background-color: #F7941E;
     color: var(--main-text--);
     border-color:var(--main-text--);
+}
+.blog{
+    background-color: var(--white-text--);
+}
+.text-blog{
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+p.text-blog {}
+.blog1{
+    background-color: var(--black-background--);
+    color: var(--white-text--);
+}
+.blog1 p{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.section-blog1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+.blog1 a{
+    line-height: 1.4;
+    color: var(--white-text--);
+    text-decoration: none;
+}
+.blog3{
+    background-color: var(--white-text--);
+}
+.section-blog2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+h4.section-blog2 {}
+.blog2 p,
+.blog2 a{
+    line-height: 1.4;
+}
+.blog2 a{
+    font-size: 14px;
+    text-decoration: none;
 }
