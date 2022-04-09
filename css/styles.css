@@ -16,6 +16,11 @@ body{
     background-color: var(--footer-background--);
     
 }
+
+.cotainer{
+    background-color: red;
+}
+
 button{
     font: inherit;
 }
