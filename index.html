@@ -13,34 +13,63 @@
 </head>
 <body>
     <header>
-       <div class="container">
-        <nav>
-            <img src="./images/logo.svg" alt="logo">
+       <div class="logo-header container">
+        <img class="img-logo" src="./images/logo.svg" alt="logo">
+        <nav class="nav-logo">
+            
+           
             <ul class="site-nav list">
-                <li> <a href="">Home</a></li>
-                <li> <a href="">About us</a></li>
-                <li> <a href="">Services</a></li>
-                <li> <a href="">Blogs</a></li>
+                <li class="item"> <a href="">Home</a></li>
+                <li class="item"> <a href="">About us</a></li>
+                <li class="item"> <a href="">Services</a></li>
+                <li class="item"> <a href="">Blogs</a></li>
             </ul>
+          
         </nav>
-       </div>
         <button type="button" class="white-button">GIFT FINDER</button>
+        </div>
     </header>
+    <!--Main-->
     <main>
         <section class="hero">
-            <h1 class="section-hero">Find a gift for your wife or girlfriend</h1>
-            <p>Struggling to find a gift for your wife or girlfriend?
-                No problem!</p>
-            <button type="button" class="yellow-button">Find gift now</button>
-            <img src="./images/img1.jpg" alt="picture about man and women" width="719" height="700">
+           
+            <div class="gift-container container">
+               
+                <div class="text-container">
+                    <h1 class="section-hero">Find a gift for your wife or girlfriend</h1>
+                    <p class="hero-text">Struggling to find a gift for your wife or girlfriend?
+                        No problem!</p>
+                    <button type="button" class="yellow-button">Find gift now</button>
+               </div>
+             
+               <div >
+                     <img class="picture-img" src="./images/img1.jpg" alt="picture about man and women" width="719px" height="702px" >
+             
+                    </div>
         </section>
+       
         <section class="work">
-            <img src="./images/img2.jpg" alt="picture about thanks gift card" width="733" height="618">
-            <h2 class="section-work">How we work</h2>
-            <p class="text-work">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
-            <button type="button" class="work-button">LEARN MORE</button>
+                <div class="img-picture">
+                        <img class="gift-card" src="./images/img2.jpg" alt="picture about thanks gift card" width="705px" height="600px">
+               </div>
+               
+               <div class="text-work ">
+                    <h2 class="section-work">How we work</h2>
+                    <p class="work-text">We’ve actually already asked hundreds of women what they want,
+                         and made a database with the results. All you have to do is take our short survey
+                          that only takes seconds, and our proprietary algorithm will match you with a few 
+                          perfect gift options.</p>
+                    <button type="button" class="work-button">LEARN MORE</button>
+                
+                </div>
+          
+            </div>
         </section>
+
+        <!--Gift for occasion-->
+
         <section class="present">
+            <div class="container">
             <h2 class="section-present">Gifts for all Occasions</h2>
             <p class="text-present">“Try our web app to find the best gifts for all occasions”</p>
             <ul class="list">
@@ -66,6 +95,7 @@
                     <details class="section-see"> <summary>See more:</summary> </details>
                 </li>
             </ul>
+        </div>
         </section>
         <section class="contact">
             <h2 class="section-contact">Ready to get started?</h2>

@@ -17,12 +17,34 @@ body{
 
 }
 
-.cotainer{
-    background-color: red;
+.container{
+    background-color:var(--footer-background--);
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+
+}
+.logo-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 39px 34px 35px 80px;
+    margin: 0;
 }
 
-button{
-    font: inherit;
+.img-logo{
+    width: 41px;
+    height: 39px;
+  
+}
+.site-nav{
+    display: flex;
+}   
+.site-nav .item{
+    margin-right: 31px;
 }
 
 .list{
@@ -33,6 +55,7 @@ button{
     line-height: 1.22;
     text-decoration: none;
     color: var(--main-text--);
+    
 }
 .site-nav a:hover,
 .site-nav a:focus{
@@ -47,17 +70,36 @@ button{
      line-height: 1.22;
     
 }
-.hero, .work{
-    background-color: var(--text-background--);
+.white-button:hover{
+    background-color: var(--button-text--);
+    color: var(--white-text--);
 }
+
+.gift-container{
+    display: flex;
+    flex-wrap: nowrap;
+    
+align-items: stretch;}
+
+
 .section-hero{
     font-weight: 600;
     font-size: 56px;
     line-height: 1.23;
+    font-family: 'Gilroy';
+    color: var(--main-text--);
+    margin: 0;
 }
-.hero p{
+.hero-text{
     font-size: 20px;
     line-height: 1.4;
+    margin-bottom: 52px;
+    margin-top:36px;
+}
+.text-container{
+    padding: 154px 126px 135px 162px;
+    background-color: var(--text-background--);
+ 
 }
 
 .yellow-button{
@@ -66,10 +108,43 @@ button{
     border-color: var(--button-text--);
  
 }
-.section-work,
-.contact p{
+.yellow-button:hover{
+    background-color: var(--white-text--);
+    color: var(--button-text--);
+}
+.gift-card{
+    /* margin: 0; */
+    transform: rotate(0.3deg);
+    padding-left: 15px;
+   
+}
+.picture-img{
+    margin: 0;
+    padding: 0;
+}
+
+.work{
+    display: flex;
+}
+
+.text-work{
+    padding: 164px 166px 104px 102px;
+    margin: 0;
+}
+.section-work{
+    font-family: 'Gilroy';
     font-size: 32px;
     line-height: 1.4;
+    font-weight: 400;
+}
+.work-text{
+    width: 441px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 23px;
+    margin-bottom: 35px;
 }
 .work-button{
     background-color:var(--white-text--);
@@ -77,6 +152,10 @@ button{
     border-color: var(--button-text--);
     line-height: 1.35;
 
+}
+.work-button:hover{
+    background-color: var(--button-text--);
+    color: var(--white-text--);
 }
 .present{
 background-color: var(--white-text--);
