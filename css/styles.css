@@ -388,7 +388,7 @@ justify-content: center;}
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-bottom: 80px;
 }
 
 .third-blog-list .item{
@@ -417,4 +417,27 @@ justify-content: center;}
 .footer p{
     font-size: 14px;
     line-height: 1.4;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.container-footer{
+    margin-top: 106px;
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    margin-left:220px;
+    margin-bottom: 55px;
+    
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+.instagram-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    width: 1000px;
 }
