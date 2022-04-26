@@ -413,6 +413,13 @@ justify-content: center;}
     line-height: 1.4;
     text-decoration: none;
     color: var(--main-text--);
+    cursor: pointer;
+    transition: color 250ms var(--cubic--);
+
+}
+.section-footer a:hover{
+    color: var(--button-text--);
+    
 }
 .footer p{
     font-size: 14px;
@@ -434,10 +441,26 @@ justify-content: center;}
 .instagram{
     width: 40px;
     height: 40px;
+    fill: currentColor;
+
+    transition: color 250ms var(--cubic--);
 }
+.instagram:hover{
+  color: var(--button-text--);
+}
+.instagram-item{
+    color: var(--main-text--);
+}
+
 .instagram-footer{
     display: flex;
-    justify-content: space-evenly;
+  justify-content: center;
     align-items: center ;
-    width: 1000px;
+  
+}
+.instagram-footer .item{
+    margin-right: 26px;
+}
+.finish{
+    text-align: center;
 }
